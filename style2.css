@@ -1,0 +1,103 @@
+.box1 {
+  background-color: #262626;
+  text-align: center;
+  position: fixed;
+  text-decoration: none;
+  height: 130px;
+  margin: -10px ;
+}
+h1 {
+  padding-top: 20px;
+  color: darkmagenta;
+  font-size: 31px;
+  font-family: Times New Roman;
+  text-shadow: 0 -5px 2px black;
+ }
+.navbar {
+    display: block;
+    width: 26px;
+    height: 3px;
+    background-color: white;
+    font-size: 27px;
+    margin: 5px auto;
+    margin-left: 10px;
+    position: relative ;
+    bottom:120px ;
+}
+#button1{
+  border-color: black;
+  text-align: center;
+}
+h4{
+  font-style: italic;
+  color:brown;
+  font-family: Times New Roman;
+}
+#box1{
+  display: block;
+}
+#img1:hover{
+  height: 200px;
+  width: 200px;
+  border-radius:25px;
+  transition: all 2s ease;
+}
+#img2:hover {
+  height: 200px;
+  width: 200px;
+  border-radius:25px;
+  transition: all 2s ease;
+}
+#p1{
+  background-color: yellowgreen;
+  display: inline ;
+  font-weight: bolder;
+}
+p{
+  font-family: Times New Roman;
+}
+h3{
+  font-family: Times New Roman;
+  font-weight: bolder;
+}
+.last{
+  position: absolute ;
+  bottom: 20px ;
+  text-align: center;
+}
+#spck{
+  width: 50px ;
+  height: 50px;
+}
+h2{
+  text-decoration: underline 5px red;
+  font-weight: bolder;
+}
+.but1{
+    float: left;
+    position: relative ;
+    bottom:100px ;
+    border: none;
+    margin-left: 10px ;
+    height: 30px;
+    width: 30px;
+}
+.box2{
+  position: relative;
+  width: 120px;
+  height: 25px;
+  bottom: 157px;
+  right:-250px;
+  background-color: lightcyan ;
+  align-items: center;
+  border-bottom: solid 2px green;
+  border-right: solid 2px green;
+  border-radius: 5px;
+}
+.box2 p{
+  color: #262626;
+  text-align: center;
+}
+.sect{
+  padding-top: 80px;
+}

@@ -1,0 +1,24 @@
+#img3{
+  width: 30px;
+  height: 40px;
+}
+h3{
+  font-size: 25px ;
+  font-family:Times New Roman;
+  color: lightcoral ;
+  background-color: cyan ;
+}
+a{
+  padding-left: 20px ;
+}
+#but1{
+  font-size: 20px ;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.last{
+  position: absolute ;
+  bottom: 20px ;
+  text-align: center;
+  font-family: Times New Roman ;
+}
