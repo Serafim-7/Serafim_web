@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up Page</title>
+</head>
+
+<body style="background-color: black">
+  <a href="login.html">↩️</a>
+  <h1 style="color: white; text-align: center; background-color: darkcyan; border-radius: 10px">Sign Up and Rate </h1>
+  <div style="align-content: center; border-radius: 50px; background-color: coral; text-align: center ;font-size: 20px">
+    <br>
+    <form method="POST" action="config.php">
+      <label>First Name</label><br>
+      <input name="fname" type="text" required autocomplete="off" placeholder="First Name"><br><br>
+      <label>Email</label><br>
+      <input name="email" type="email" value="@gmail.com" required><br><br>
+      <label>Phone Number</label><br>
+      <input name="tele" type="tel" placeholder="xxx xxx xxxx" required><br><br>
+      <label>Username</label><br>
+      <input name="username" type="text" placeholder="Enter Username" required><br><br <label for="pa1">Password</label> <br>
+      <input type="password" name="password1" id="pa1" placeholder="Enter Your Password" autocomplete="off" required><br>
+      <p style="font-size: 15px">
+        <input type="checkbox" onclick="showpassword()">Show Password
+      </p><br>
+
+      <label>Confirm Password</label> <br>
+      <input type="password" name="password2" placeholder="Confirm Password" autocomplete="off" required><br><br>
+
+      <p style="font-size:12px; background-color: blanchedalmond">Note: Passwords are case sensitive. </p>
+
+      <input type="submit" value="Sign up" onclick="alert('Passwords don't match. Please try again')" style="background-color:red ; font-size:21px;font-weight:bold;border-radius:10px;color:">
+      <br>
+      <br>
+    </form>
+  </div>
+  <script>
+    function showpassword() {
+      var x = document.getElementById("pa1");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+  </script>
+</body>
+
+</html>
