@@ -40,7 +40,7 @@ if ($telegram=="on") {
   $send=['chat_id'=> $chat_id, 'text'=>$txt];
   $website="https://api.telegram.org/{$bot_url}";
   $ch=curl_init($website.'/sendMessage');
-  curl_setopt($ch,CURLOPT_RETUTNTRANSFER,1);
+  curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
   curl_setopt($ch,CURLOPT_POST,1);
   curl_setopt($ch,CURLOPT_POSTFIELDS,($send));
   curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,false);
